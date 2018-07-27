@@ -1,1 +1,18 @@
 [flake8]
+ignore = D405,F401
+exclude =
+        .git,
+        __pycache__,
+        conf.py,
+        old,
+        build,
+        dist,
+        setup.py,
+        migrations,
+        settings.py,
+        .tox
+        *.sh,
+        *.yml,
+        *.ini
+
+max-complexity = 10
